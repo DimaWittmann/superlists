@@ -50,3 +50,5 @@ class ListModelTest(TestCase):
         Item.objects.create(list=list1, text='bla')
         item = Item(list=list2, text='bla')
         item.full_clean() #should not raise 
+
+
